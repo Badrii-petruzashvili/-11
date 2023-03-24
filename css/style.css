@@ -1,0 +1,138 @@
+  /*HEADER*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(19, 52, 91, 1)
+}
+
+.logo {
+    padding: 47px 237px 47px 35px;
+}
+
+ul {
+    font-size: 32px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    color: rgba(13, 4, 121, 1);
+    line-height: 40px;
+
+}
+
+.a_t {
+    position: relative;
+    color: #cbae2d;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.a_t::after {
+    content: "";
+    position: absolute;
+    background-color: #cbae2d;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.a_t:hover::after {
+    width: 100%;
+}
+
+.a_t:hover {
+    color: rgb(15, 148, 181);
+}
+
+
+
+.basket_icon {
+    margin-left: 258px;
+}
+
+/*MAIN*/
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #13345B;
+    text-align: center;
+    margin-top: 114px;
+    margin-bottom: 100px;
+}
+
+.input1 {
+    display: inline-block;
+    width: 50%;
+}
+
+.input2 {
+    display: inline-block;
+    width: 50%;
+}
+
+.registration_label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(19, 52, 91, 1);
+}
+
+.registration_input {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: #B3E9F5;
+    height: 55px;
+    display: flex;
+}
+
+.submit {
+    width: 630px;
+    height: 108px;
+    border: none;
+    border-radius: 15px;
+    font-size: 36px;
+    color: aliceblue;
+    background-color: rgba(253, 213, 4, 1);
+}
+
+.reset {
+    width: 630px;
+    height: 108px;
+    border: none;
+    border-radius: 15px;
+    font-size: 36px;
+    color: aliceblue;
+    margin-left: 30px;
+    background-color:rgba(21, 193, 231, 1);
+}
+
+  /*FOOTER*/
+footer {
+    width: 100%;
+    height: 200px;
+    
+    margin-top: 80px;
+    background-color:rgba(19, 52, 91, 1) ;
+    
+}
+
+.footer_icons {
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 3px;
+
+}
